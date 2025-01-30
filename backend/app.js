@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Product = require("./models/Product");
 
+// C'est la connexion
 mongoose
     .connect(
         "mongodb+srv://clusamote:8Q6g1JGEHK9NXsdM@cluster0.ha0te.mongodb.net/sample_mflix?retryWrites=true&w=majority"
